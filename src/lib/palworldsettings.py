@@ -171,7 +171,7 @@ def generate_json_config(config: str) -> Dict:
 def parse_config(config: str) -> str:
     return config\
         .replace("OptionSettings=(", "")\
-        .strip(") ")
+        .strip(") \n")
 
 
 def load_palworldsettings(path: str) -> str:
