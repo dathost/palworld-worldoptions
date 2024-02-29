@@ -101,6 +101,7 @@ class SettingStructs:
     CollectionObjectRespawnSpeedRate = ConfigOption("CollectionObjectRespawnSpeedRate", StructTypes.Float, 1.000000)
     EnemyDropItemRate = ConfigOption("EnemyDropItemRate", StructTypes.Float, 1.000000)
     DeathPenalty = ConfigOption("DeathPenalty", StructTypes.Enum, "All")
+    bShowPlayerList = ConfigOption("bShowPlayerList", StructTypes.Bool, False)
     bEnablePlayerToPlayerDamage = ConfigOption("bEnablePlayerToPlayerDamage", StructTypes.Bool, False)
     bEnableFriendlyFire = ConfigOption("bEnableFriendlyFire", StructTypes.Bool, False)
     bEnableInvaderEnemy = ConfigOption("bEnableInvaderEnemy", StructTypes.Bool, True)
